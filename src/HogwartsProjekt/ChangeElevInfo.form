@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="PanelChangeElevInfo" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="PanelChangeElevInfo" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="PanelChangeElevInfo">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblandrainfo" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="Search" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblelevid" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtelevid" alignment="0" min="-2" pref="123" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="lbltoptext" alignment="0" pref="246" max="32767" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblnyttelevid" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblfornamn" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblefternamn" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblsovsal" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtfornamn" pref="108" max="32767" attributes="0"/>
+                                      <Component id="txtnyttelevid" alignment="0" min="-2" pref="27" max="-2" attributes="0"/>
+                                      <Component id="txtsovsal" alignment="0" min="-2" pref="25" max="-2" attributes="0"/>
+                                      <Component id="txtefternamn" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="andra" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="tillbaka" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="51" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lbltoptext" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="lblelevid" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="txtelevid" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="Search" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="lblandrainfo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtnyttelevid" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblnyttelevid" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtfornamn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblfornamn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtefternamn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblefternamn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtsovsal" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblsovsal" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="andra" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tillbaka" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="16" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lbltoptext">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="16" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#xc4;ndra information f&#xf6;r en elev"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblelevid">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" Skriv in elev ID"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblandrainfo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xc4;ndra information"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="Search">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="S&#xd6;K"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SearchActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtelevid">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtnyttelevid">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtfornamn">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtefternamn">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtsovsal">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblnyttelevid">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Elev ID"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblfornamn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="F&#xf6;rnamn"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblefternamn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Efternamn"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblsovsal">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sovsal"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="andra">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xc4;ndra"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="andraActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="tillbaka">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tillbaka"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tillbakaActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
